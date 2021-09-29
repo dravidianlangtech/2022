@@ -1,3 +1,3 @@
-# dravidianlangtech.github.io/2021
-Visit: https://dravidianlangtech.github.io/2021/ <br/>
+# dravidianlangtech.github.io/2022
+Visit: https://dravidianlangtech.github.io/2022/ <br/>
 Contact us: dravidiancodemixed@gmail.com
