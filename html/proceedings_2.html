@@ -42,10 +42,18 @@
 }
 
 </style>
+	
+<script type="text/javascript">
+  function resizeIframe(obj){
+     obj.style.height = 0;
+     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+	
 </head>
 <body>
 	<div align="center">
 		<h3>ACL 2022 : DravidianLangTech : Program</h3>
-		<iframe width="1200" height="1200" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmrB5aHAbwQXApEnnaBAWxzBrXr9LMB46wKApW_gdHGag-iil9k5OQU1xcDC4a-A/pubhtml?gid=1100179830&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+		<iframe onload='resizeIframe(this)' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTmrB5aHAbwQXApEnnaBAWxzBrXr9LMB46wKApW_gdHGag-iil9k5OQU1xcDC4a-A/pubhtml?gid=1100179830&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 </body>
 </html>
